@@ -7,3 +7,10 @@
 7. 
 	hdfs dfs -mkdir /hw1
 	hdfs dfs -put hdfs_task.txt /hw1/hdfs_task.txt
+8. hdfs dfs -cat hdfs_task.txt /hw1/hdfs_task.txt
+9. hdfs dfs -tail /hw1/hdfs_task.txt
+10. hdfs dfs -head /hw1/hdfs_task.txt
+11. hdfs dfs -cp /hw1/hdfs_task.txt /hdfs_task.txt
+12.  hdfs dfs -setrep -w 2 /hdfs_task.txt
+13. hdfs fsck /hdfs_task.txt -files -blocks -locations
+14. hdfs fsck -blockId blk_1073741840
