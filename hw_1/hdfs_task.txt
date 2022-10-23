@@ -1,0 +1,9 @@
+1. hdfs dfs -mkdir /hw1
+2. hdfs dfs -mkdir /hw1/sub_folder
+3. Deleted files are first moved to the /user/<username>/.Trash/Current directory.; -skipTrash flag to delete files permanently
+4. hdfs dfs -touchz /hw1/sub_folder/test
+5. hdfs dfs -rm -skipTrash /hw1/sub_folder/test
+6. hdfs dfs -rm -r /hw1
+7. 
+	hdfs dfs -mkdir /hw1
+	hdfs dfs -put hdfs_task.txt /hw1/hdfs_task.txt
